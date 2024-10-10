@@ -199,7 +199,7 @@ defaults:
       layout: docs
     permalink: /docs/:title/
    # seo:
-    #  type: "WebPage"
+      type: "WebPage"
 
 sass:
   style: compressed
@@ -216,7 +216,7 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs
+  #- docs
   - tools
   - README.md
   - LICENSE
