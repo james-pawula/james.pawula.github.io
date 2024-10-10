@@ -195,15 +195,7 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: _docs
-      type: docs
-    values:
-      layout: docs
-    permalink: /docs/:title/
-   # seo:
-      type: "WebPage"
-
+  
 sass:
   style: compressed
 
@@ -219,7 +211,7 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  #- docs
+  - docs
   - tools
   - README.md
   - LICENSE
