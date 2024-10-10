@@ -193,13 +193,13 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-    path: _docs
-    type: docs
+      path: _docs
+      type: docs
     values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
+      layout: docs
+    permalink: /docs/:title/
+   # seo:
+    #  type: "WebPage"
 
 sass:
   style: compressed
